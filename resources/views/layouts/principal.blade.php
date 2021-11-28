@@ -8,6 +8,6 @@
 </head>
 <body>
 <div class="container">
-    <h1 align="center" class="bg-info text-white rounded">El Tiempo Galicia</h1>
+    <h1 align="center" class="bg-info text-white rounded">El Tiempo Galiciia</h1>
     <div class="row">
 			<div class="col">
