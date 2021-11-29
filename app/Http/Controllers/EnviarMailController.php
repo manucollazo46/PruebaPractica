@@ -24,7 +24,7 @@ class EnviarMailController extends Controller
         $array_nombre_datos = array('Ciudad','Temperatura actual [ºC]', 'Latitud', 'Longitud', 'Humedad actual [%]', 'Velocidad del viento [m/s]'  );
         
         //Enviamos el Mail con las variables que contienen la info y el nombre de las columnas
-        Mail::to('manucollazo46@gmail.com')->send(new ElTiempoGaliciaMail($info_total, $array_nombre_datos));
+        Mail::to('gestion@codery.es')->send(new ElTiempoGaliciaMail($info_total, $array_nombre_datos));
         return Redirect::to('/');
     }
 }
